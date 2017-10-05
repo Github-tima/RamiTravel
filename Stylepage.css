@@ -1,0 +1,35 @@
+header {
+    text-align: center; 
+    font-size: 3.01em;
+    font-style: bold;
+}
+ body {
+    font-family:'Verdana';
+    margin: 0px;                
+}
+
+nav {                
+    background-color:mediumaquamarine;
+    font-family:'Verdana';
+    font-size: 1.8em;                
+}
+
+nav ul {                
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+li a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+
+}
