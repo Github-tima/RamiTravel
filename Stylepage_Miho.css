@@ -28,6 +28,7 @@ li a {
     color:white;
 }
 
+/*homepage*/
 .top-image {
     display: block;
     width: 1240px;
@@ -72,6 +73,8 @@ li a {
 }
 
 .recommendations {
+    width: 1280px;
+    margin: 0 auto 80px auto;
 }
 
 .subtitle{
@@ -79,9 +82,9 @@ li a {
 }
 
 .tour-recommend {
+    display: table-cell;
     width: 600px;
     padding: 10px 20px 10px 10px;
-    margin: 0px 50% 30px auto;
     clear: left;
     border-right: 3px double gray;
 }
@@ -96,19 +99,17 @@ li a {
 }
 
 .tour-recommend img {
-    max-width: 270px;
+    width: 270px;
 }
 
 .hotel-recommend {
-    position: relative;
-    top: -1117px;
+    display: table-cell;
     width: 600px;
-    padding: 10px;
-    margin: 0px auto -1117px 50%;
+    padding: 10px 10px 10px 20px;
 }
 
 .hotel-recommend table {
-    width: 590px;
+    width: 600px;
     padding: 10px;
 }
 
@@ -120,11 +121,13 @@ li a {
     padding: 10px;
 }
 
+/*about us*/
+
+
+
 footer {
     background-color: mediumaquamarine;
     color: white;
     height: 200px;
     width: 100%;
-    position: relative;
-    top: 300px;
 }
