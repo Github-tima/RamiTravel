@@ -1,0 +1,130 @@
+body {
+	font-family:'Verdana';
+    margin:0px;                
+}
+
+nav {                
+    background-color:mediumaquamarine;
+    font-family:'Verdana', sans-serif;
+    font-size:1.8em;                
+}
+
+nav ul {                
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+li a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color:white;
+}
+
+.top-image {
+    display: block;
+    width: 1240px;
+    padding: 0 10px;
+    margin: 10px auto;
+}
+
+.destination {
+    display: block;
+    width: 1260px;
+    margin: 50px auto 400px auto;
+}
+
+.destination img {
+    width: 400px;
+    padding: 10px;
+}
+
+.destination img:hover {
+    opacity: 0.8;
+}
+
+
+.destination-set {
+    position: relative;
+    float: left;
+    text-align: center middle;
+}
+
+.destination-set h2 {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px black;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.recommendations {
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.tour-recommend {
+    width: 600px;
+    padding: 10px 20px 10px 10px;
+    margin: 0px 50% 30px auto;
+    clear: left;
+    border-right: 3px double gray;
+}
+
+.tour-recommend table {
+    width: 560px;
+    padding: 10px;
+}
+
+.tour-recommend td {
+    padding: 10px;
+}
+
+.tour-recommend img {
+    max-width: 270px;
+}
+
+.hotel-recommend {
+    position: relative;
+    top: -1117px;
+    width: 600px;
+    padding: 10px;
+    margin: 0px auto -1117px 50%;
+}
+
+.hotel-recommend table {
+    width: 590px;
+    padding: 10px;
+}
+
+.hotel-recommend img {
+    width: 150px;
+}
+
+.hotel-recommend td {
+    padding: 10px;
+}
+
+footer {
+    background-color: mediumaquamarine;
+    color: white;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
