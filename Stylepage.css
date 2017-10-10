@@ -1,35 +1,282 @@
+/*navigator*/
 header {
     text-align: center; 
-    font-size: 3.01em;
+    font-size: 2.5em;
     font-style: bold;
+    color:cornflowerblue;
 }
  body {
     font-family:'Verdana';
-    margin: 0px;                
+    margin: 0px; 
+    padding: 1em;               
 }
 
 nav {                
     background-color:mediumaquamarine;
     font-family:'Verdana';
-    font-size: 1.8em;                
+    font-size: 2em;                
 }
 
 nav ul {                
     list-style-type: none;
     padding: 10px;
-    text-align: center;
     margin: 0px;
+    text-align: center;
 }
 
 nav li {
     display: inline-block;
+    text-shadow:rgb(1px);
 
 }
+ a:hover{
+    color:cornflowerblue;  
+ }
 
 li a {
     display: block;
     padding: 10px 30px;
     text-decoration: none;
     color: white;
+}
+/*footer*/
+
+footer{
+	background-color:mediumaquamarine;
+	font-size:1.2em;
+	color:white;
+	padding-top:0.2em;
+    padding-left:0.2em;
+    padding-bottom:0.2em;
+	height:200px;
+	text-indent:1em;
+    text-align:center;
+    
+}
+/*homepage*/
+.top-image {
+    display: block;
+    width: 1590px;
+    padding: 0 10px;
+    margin:10px auto;
+}
+
+.destination {
+    display: block;
+    width: 1260px;
+    margin: 50px auto 400px auto;
+}
+
+.destination img {
+    width: 400px;
+    padding: 10px;
+}
+
+.destination img:hover {
+    opacity: 0.8;
+}
+
+.destination-set {
+    position: relative;
+    float: left;
+    text-align: center middle;
+}
+
+.destination-set h2 {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px black;
+
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.recommendations {
+    width: 1280px;
+    margin: 0 auto 80px auto;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.tour-recommend {
+    display: table-cell;
+    width: 600px;
+    padding: 10px 20px 10px 10px;
+    clear: left;
+    border-right: 3px double gray;
+}
+
+.tour-recommend table {
+    width: 560px;
+    padding: 10px;
+}
+
+.tour-recommend td {
+    padding: 10px;
+}
+
+.tour-recommend img {
+    width: 270px;
+}
+
+.hotel-recommend {
+    display: table-cell;
+    width: 600px;
+    padding: 10px 10px 10px 20px;
+}
+
+.hotel-recommend table {
+    width: 600px;
+    padding: 10px;
+}
+
+.hotel-recommend img {
+    width: 150px;
+}
+
+.hotel-recommend td {
+    padding: 10px;
+}
+
+/*about us*/
+
+.about_us img{
+    padding-top:50px;
+    margin-left: 800px;
+    width: 1200px;
+    
+;
+}
+
+.about_us article{
+
+    text-align:center;
+	font-size:1.5em;
+	font-style:bold;
+	color:black;
+	padding-top: 10px;
+	margin-bottom: 10px auto;
+}
+
+/*Tour Packages*/
+
+.packages1,.packages2,.packages3,.packages4,.packages5,.packages6{
+    display:block;  
+    width:700px;
+    text-align:center;
+    margin:20px auto 20px auto;
+}
+
+
+.packages img:hover {
+    opacity: 0.8;
+}   
+.package h3{
+    font-size:1.2em;
+    
+
+}
+
+/*contact us*/
+*,
+*:before,
+*:after {
+	@include box-sizing(border-box);
+}
+
+.hotel-image {
+    margin-left:50px;
+}
+
+h1 {
+    text-align:center;
+    color:mediumaquamarine;
+    background-image: img=src"01_home-top.jpg";
+}
+
+form {
+   max-width: 850px;
+   text-align: center;
+   margin: 50px auto;
+   background-color:mediumaquamarine;
+   border-radius:10px;
+   border-color:darkseagreen; opacity:50%;
+   background-image:img src="image/01_home-top.jpg";
+
+}
+
+	input,textarea {
+    	border:0; outline:0;
+    	padding:1em;
+    	border-radius:8px;
+    	display: block;
+    	width: 84%;
+    	margin-top:2em;
+    	margin-left:3em;
+    	margin-right:1em;
+    	margin-bottom: 2em;
+    	font-family: Verdana;
+    	font-size:0.9em;
+    	box-shadow:0 1px 1px rgba(black,0.1);
+    	resize: none;
+
+    	&:focus {
+    		box-shadow:0 0px 2px rgba(darkseagreen,1)!important;
+    	}
+	}
+    
+    #input-submit {
+    	color: white;
+    	width:50%;
+    	background: darkseagreen;
+    	cursor: pointer;
+    	margin:20px auto;
+
+    	&:hover;
+    	box-shadow:0 1px 1px 1px rgba(darkseagreen,1
+    		);
+    }
+
+	textarea {
+    	height: 130px;
+    	width: 165%;
+    
+     }
+ }
+
+	.half{
+    	float:center;
+   		width: 60%;
+    	margin-bottom:1em;
+}
+
+.right { width: 50%; }
+.left { margin-right:2%; }
+
+@media (max-width: 480px) {
+  .half {
+     width: 180%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
 
 }
